@@ -58,7 +58,7 @@ changeBtn.addEventListener('click', function(){
         reInitialise();
         sizeOfBoard(inputValue);
         attachEventListeners();
-        blockSize.textContent=`${inputValue}x${inputValue}`;
+        blockSize.textContent=`${inputValue}x${inputValue} Block `;
     }
 })
 
